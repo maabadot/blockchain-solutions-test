@@ -25,7 +25,7 @@ const Portfolio = ({ getBalance, quotation, balance: { balance } }) => {
                             (quotation.ETH * balance.ETH)) * 100) / 100}USD`}
                         </div>
                     </div>
-                    <div className="flex my-2">
+                    <div className="flex charts my-2">
                         {Object.entries(balance).map(currency => <PortfolioCurrency key={currency[0]} currency={currency[0]} balance={currency[1]}/>)}
                     </div>
                     {quotation.loading ? 'Загрузка...' :

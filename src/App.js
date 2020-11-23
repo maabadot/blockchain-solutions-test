@@ -15,9 +15,6 @@ import { getMarket } from './actions/market';
 const App = () => {
     useEffect(() => {
         store.dispatch(getQuotations());
-    }, [])
-
-    useEffect(() => {
         store.dispatch(getMarket());
     }, [])
 
