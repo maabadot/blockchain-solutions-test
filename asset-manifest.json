@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.28e28976.chunk.css",
-    "main.js": "/static/js/main.5b6b5cd3.chunk.js",
-    "main.js.map": "/static/js/main.5b6b5cd3.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e04a10ee.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e04a10ee.js.map",
-    "static/js/2.6cf374ef.chunk.js": "/static/js/2.6cf374ef.chunk.js",
-    "static/js/2.6cf374ef.chunk.js.map": "/static/js/2.6cf374ef.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.28e28976.chunk.css.map": "/static/css/main.28e28976.chunk.css.map",
-    "static/js/2.6cf374ef.chunk.js.LICENSE.txt": "/static/js/2.6cf374ef.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/HelveticaNeueCyr-Roman.46051620.ttf"
+    "main.css": "/blockchain-solutions-test/static/css/main.bcf29b2e.chunk.css",
+    "main.js": "/blockchain-solutions-test/static/js/main.5f07434b.chunk.js",
+    "main.js.map": "/blockchain-solutions-test/static/js/main.5f07434b.chunk.js.map",
+    "runtime-main.js": "/blockchain-solutions-test/static/js/runtime-main.b2e6be72.js",
+    "runtime-main.js.map": "/blockchain-solutions-test/static/js/runtime-main.b2e6be72.js.map",
+    "static/js/2.a81f14ee.chunk.js": "/blockchain-solutions-test/static/js/2.a81f14ee.chunk.js",
+    "static/js/2.a81f14ee.chunk.js.map": "/blockchain-solutions-test/static/js/2.a81f14ee.chunk.js.map",
+    "index.html": "/blockchain-solutions-test/index.html",
+    "static/css/main.bcf29b2e.chunk.css.map": "/blockchain-solutions-test/static/css/main.bcf29b2e.chunk.css.map",
+    "static/js/2.a81f14ee.chunk.js.LICENSE.txt": "/blockchain-solutions-test/static/js/2.a81f14ee.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/blockchain-solutions-test/static/media/HelveticaNeueCyr-Roman.46051620.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.e04a10ee.js",
-    "static/js/2.6cf374ef.chunk.js",
-    "static/css/main.28e28976.chunk.css",
-    "static/js/main.5b6b5cd3.chunk.js"
+    "static/js/runtime-main.b2e6be72.js",
+    "static/js/2.a81f14ee.chunk.js",
+    "static/css/main.bcf29b2e.chunk.css",
+    "static/js/main.5f07434b.chunk.js"
   ]
 }
