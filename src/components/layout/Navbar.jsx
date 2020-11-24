@@ -13,7 +13,7 @@ const Navbar = () => {
                         <NavLink activeClassName='selected' className='text-link' exact to='/portfolio'>Портфель</NavLink>
                     </li>
                 </ul>
-                <a className="logo">crypto.</a>
+                <div className="logo">crypto.</div>
             </div>
         </nav>
     );

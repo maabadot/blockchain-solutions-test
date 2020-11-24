@@ -3,10 +3,10 @@ import { Line } from 'react-chartjs-2';
 
 const ConverterChart = ({ currency, prices }) => {
     const data = {
-        labels: prices.map(price => {
+        labels: [...prices.slice(0, 14).map(price => {
             const date = new Date(price[0]);
             return `${date.getUTCDate()}.${date.getUTCMonth() + 1}`
-        }),
+        }), 'Сейчас'],
         datasets: [
             {
                 label: `USD value of ${currency}`,
