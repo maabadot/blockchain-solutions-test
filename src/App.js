@@ -4,7 +4,7 @@ import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer'
 import Portfolio from './components/portfolio/Portfolio';
 import Converter from './components/converter/Converter';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {HashRouter as Router, Switch, Route} from 'react-router-dom';
 
 // Redux
 import { Provider } from 'react-redux';
@@ -21,7 +21,7 @@ const App = () => {
 
     return (
         <Provider store={store}>
-            <Router>
+            <Router basename='/'>
                 <div>
                     <Navbar/>
                     <Switch>
